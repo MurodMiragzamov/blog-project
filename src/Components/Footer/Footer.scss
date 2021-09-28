@@ -6,6 +6,7 @@
   margin: 0 auto;
   margin-top: 305px;
   position: relative;
+  display: flex;
 }
 .footer__loader {
   position: absolute;
@@ -30,5 +31,100 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+.footer__header {
+  font-family: Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  color: #000;
+  width: 445px;
+}
+// .footer__email {
+//   font-family: Cera Pro;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 24px;
+//   line-height: 30px;
+//   text-decoration-line: underline;
+//   color: #000000;
+
+//   &:hover {
+//     text-decoration: none;
+
+//     .footer__email::after {
+//       width: 100px;
+//       height: 20px;
+//       background: #000;
+//     }
+//   }
+// }
+
+.footer__email:hover {
+  text-decoration: none;
+}
+
+.footer__email {
+  margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+  margin-bottom: 50px;
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.footer__email:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+}
+.footer__email:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  transition: transform 0.6s ease-out;
+}
+
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 365px;
+  height: 130px;
+  justify-content: space-between;
+  li {
+    color: #000;
+    border-radius: 1px solid #000;
+    width: 180px;
+
+    a {
+      text-align: center;
+      font-family: Cera Pro;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 23px;
+      color: #fff;
+      border: 1px solid #000;
+      background: #000;
+      padding: 15px 45px;
+
+      &:hover {
+        background: #fff;
+        color: #000;
+      }
+    }
   }
 }
