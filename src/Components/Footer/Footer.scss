@@ -4,4 +4,31 @@
   padding-left: 5px;
   padding-right: 5px;
   margin: 0 auto;
+  margin-top: 305px;
+  position: relative;
+}
+.footer__loader {
+  position: absolute;
+  top: -130px;
+  left: -200px;
+  border: 30px solid #f7f7f7;
+  border-top: 30px solid #000;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+
+  animation: spin 1s cubic-bezier(0, 0, 1, 1) infinite;
+
+  &:hover {
+    animation-duration: 0.5s;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
