@@ -1,7 +1,13 @@
+import React from "react";
 import "./App.scss";
+import Header from "./Components/Header/Header";
 
 function App() {
-  return <div className="App">y4554y45y45y45y56hfyhtyh</div>;
+  return (
+    <>
+      <Header></Header>
+    </>
+  );
 }
 
 export default App;
