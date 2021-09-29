@@ -79,3 +79,12 @@
     top: -100px;
   }
 }
+@media (max-width: 450px) {
+  .loader_ {
+    top: -150px;
+    right: 4%;
+  }
+  .load {
+    top: -100px;
+  }
+}
