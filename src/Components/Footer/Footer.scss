@@ -160,7 +160,7 @@
     font-family: Garamond;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 39px;
     margin-bottom: 20px;
   }
@@ -190,6 +190,9 @@
 @media (max-width: 677px) {
   .footer__loader {
     left: 82%;
+  }
+  .footer__header {
+    font-size: 35px;
   }
 }
 @media (max-width: 550px) {

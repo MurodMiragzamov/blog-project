@@ -43,7 +43,7 @@
   max-width: 762px;
   width: 90%;
 }
-.loader {
+.loader_ {
   position: absolute;
   top: -90px;
   right: 12px;
@@ -87,7 +87,7 @@
     font-size: 14px;
     line-height: 22px;
   }
-  .loader {
+  .loader_ {
     width: 70px;
     height: 70px;
     top: -50px;
@@ -98,16 +98,14 @@
 }
 
 @media (max-width: 549px) {
-  .loader {
+  .loader_ {
     top: -120px;
+    right: 2%;
   }
   .header__header {
     width: 314px;
   }
   .header__p {
     width: 293px;
-  }
-  .loader {
-    right: 2%;
   }
 }

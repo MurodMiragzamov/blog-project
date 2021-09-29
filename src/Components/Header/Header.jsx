@@ -7,7 +7,7 @@ function Header() {
       <div className="header__container">
         <ul className="header__list">
           <li className="header__item">
-            <div className="loader"></div>
+            <div className="loader_"></div>
             <p className="header__p">
               Welcome to my portfolio website my dear guest I am UX-UI designer
             </p>
