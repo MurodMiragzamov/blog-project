@@ -115,3 +115,9 @@
     width: 293px;
   }
 }
+@media (max-width: 450px) {
+  .loader_ {
+    top: -150px;
+    right: 4%;
+  }
+}
