@@ -93,17 +93,21 @@
     top: -50px;
     border: 15px solid #f7f7f7;
     border-top: 15px solid #000;
+    right: 45px;
   }
 }
 
 @media (max-width: 549px) {
   .loader {
-    top: -90px;
+    top: -120px;
   }
   .header__header {
     width: 314px;
   }
   .header__p {
     width: 293px;
+  }
+  .loader {
+    right: 2%;
   }
 }
