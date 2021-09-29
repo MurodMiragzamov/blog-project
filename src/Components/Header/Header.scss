@@ -70,6 +70,12 @@
   }
 }
 
+@media (max-width: 1185px) {
+  .loader_ {
+    right: 5%;
+  }
+}
+
 @media (max-width: 870px) {
   .header__container {
     padding-left: 15px;
