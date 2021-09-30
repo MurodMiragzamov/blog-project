@@ -45,10 +45,6 @@
   margin-bottom: 45px;
 }
 
-.footer__email:hover {
-  text-decoration: none;
-}
-
 .footer__email {
   margin-bottom: 10px;
   display: inline-block;
@@ -61,9 +57,14 @@
   font-size: 24px;
   line-height: 30px;
   text-align: center;
-  text-decoration-line: underline;
+  border-bottom: 3px solid black;
   color: #000000;
 }
+.footer__email:hover {
+  border-bottom: none;
+  margin-bottom: 53px;
+}
+
 .footer__email:after {
   content: "";
   position: absolute;
@@ -71,6 +72,7 @@
   transform: scaleX(0);
   height: 2px;
   bottom: 0;
+
   left: 0;
   background-color: #000000;
   transform-origin: bottom right;
