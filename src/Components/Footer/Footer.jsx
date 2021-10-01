@@ -24,13 +24,15 @@ function Footer() {
             <a href="index.html">telegram</a>
           </li>
           <li className="footer__item-linkedin">
-            <a href="index.html">linkedin</a>
+            <a href="https://www.linkedin.com/in/abdulmalik-kalandarov-90898b213/">
+              linkedin
+            </a>
           </li>
           <li className="footer__item-behance">
-            <a href="index.html">behance</a>
+            <a href="https://www.behance.net/abdulmakalanda">behance</a>
           </li>
           <li className="footer__item-dribbble">
-            <a href="index.html">dribbble</a>
+            <a href="https://dribbble.com/Kalandarov">dribbble</a>
           </li>
         </ul>
       </div>
