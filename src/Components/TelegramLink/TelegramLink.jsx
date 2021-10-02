@@ -9,11 +9,12 @@ function TelegramLink() {
           Interesting stories from my life field facts just as many interesting
           things you can find here
         </h3>
-
-        <a href="https://t.me/anvarkhani" className="tg-link">
-          This is the longest button link to my telegram channel where you can
-          find a lot of interesting things
-        </a>
+        <div className="div-link">
+          <a href="https://t.me/anvarkhani" className="tg-link">
+            This is the longest button link to my telegram channel where you can
+            find a lot of interesting things
+          </a>
+        </div>
       </div>
     </>
   );
