@@ -45,8 +45,11 @@
   margin-bottom: 45px;
 }
 
+.footer__email:hover {
+  text-decoration: none;
+}
+
 .footer__email {
-  margin-bottom: 10px;
   display: inline-block;
   position: relative;
   color: #0087ca;
@@ -54,15 +57,12 @@
   font-family: Cera Pro;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 23px;
   text-align: center;
-  border-bottom: 3px solid black;
+  text-decoration-line: underline;
   color: #000000;
-}
-.footer__email:hover {
-  border-bottom: none;
-  margin-bottom: 53px;
+  text-decoration: none;
 }
 
 .footer__email:after {
@@ -71,18 +71,36 @@
   width: 100%;
   transform: scaleX(0);
   height: 2px;
-  bottom: 0;
-
+  bottom: -2px;
   left: 0;
   background-color: #000000;
   transform-origin: bottom right;
 }
-.footer__email:hover:after {
+
+.footer__email:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
   transition: transform 0.6s ease-out;
 }
 
+.footer__email {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 0px;
+}
+.footer__email {
+  box-shadow: 0 2px 0px black;
+}
+.footer__email:hover {
+  box-shadow: none;
+  text-decoration: none;
+}
+
+/////////////
 .footer__list {
   margin-top: 30px;
   display: flex;
@@ -194,6 +212,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
+    box-shadow: 0 2px 0px black;
   }
   .footer__list {
     margin-top: 10px;
@@ -226,5 +245,50 @@
   }
   .footer__loader {
     left: 76%;
+  }
+}
+@media (max-width: 378px) {
+  .footer__list {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .footer__list {
+    li {
+      width: 40%;
+    }
+  }
+  .footer__item-telegram {
+    margin-right: 35px;
+  }
+  .footer__item-behance {
+    margin-right: 35px;
+  }
+}
+@media (max-width: 350px) {
+  .footer__list {
+    li {
+      width: 40%;
+
+      a {
+        padding: 15px 40px;
+      }
+    }
+  }
+  .footer__loader {
+    left: 72%;
+  }
+}
+@media (max-width: 330px) {
+  .footer__loader {
+    left: 70%;
+  }
+  .footer__list {
+    li {
+      width: 40%;
+
+      a {
+        padding: 15px 35px;
+      }
+    }
   }
 }
