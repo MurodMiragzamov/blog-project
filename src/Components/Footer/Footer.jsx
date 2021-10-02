@@ -21,7 +21,7 @@ function Footer() {
 
         <ul className="footer__list">
           <li className="footer__item-telegram">
-            <a href="index.html">telegram</a>
+            <a href="https://t.me/anvarkhani">telegram</a>
           </li>
           <li className="footer__item-linkedin">
             <a href="https://www.linkedin.com/in/abdulmalik-kalandarov-90898b213/">
