@@ -3,6 +3,7 @@ import "./App.scss";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import PortHeader from "./Components/PortHeader/PortHeader";
+import BlogHeader from "./Components/BlogHeader/BlogHeader";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Footer></Footer>
       <Header></Header>
       <PortHeader></PortHeader>
+      <BlogHeader></BlogHeader>
     </>
   );
 }
